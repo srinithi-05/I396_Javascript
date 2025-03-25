@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.task-input input, .task-input button {
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.task-input button {
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.task-card {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.completed {
+    background-color: #d4edda;
+}
+
+.pending {
+    background-color: #fff3cd;
+}
+
+.task-card button {
+    margin: 5px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.toggle-btn {
+    background-color: teal;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
